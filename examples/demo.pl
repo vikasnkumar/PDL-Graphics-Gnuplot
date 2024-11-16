@@ -93,7 +93,6 @@ $w->plot(
 );
 prompt("Area curve with filled colors");
 
-
 ################################
 # some 3d stuff
 ################################

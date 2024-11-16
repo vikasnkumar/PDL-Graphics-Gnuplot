@@ -5301,7 +5301,7 @@ our $cOptionsAbbrevs = _gen_abbrev_list(keys %$cOptionsTable);
 	pt => ["pointtype"],
 	ps => ["pointsize"],
 	fs => ["fillstyle"],
-	fc => ["fillcolor"]
+	fc => ["fillcolor"],
     };
     for my $k(%$officialAbbrevs){
 	$cOptionsAbbrevs->{$k} = $officialAbbrevs->{$k};
